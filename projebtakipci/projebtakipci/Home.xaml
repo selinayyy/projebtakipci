@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:projebtakipci="clr-namespace:projebtakipci"
+            x:Class="projebtakipci.Home"
+    xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core" 
+            android:TabbedPage.ToolbarPlacement="Bottom">
+
+
+    <projebtakipci:ToDo Title="Yapılacaklar Listesi" IconImageSource="todolist.png"></projebtakipci:ToDo>
+    <projebtakipci:Edu Title="Eğitim" IconImageSource="presentation.png"></projebtakipci:Edu>
+    
+    
+    
+</TabbedPage>

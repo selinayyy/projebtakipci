@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="projebtakipci.ToDo">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#e6e6e6">
+            <Grid>
+                <StackLayout Padding="0" Margin="0" HorizontalOptions="FillAndExpand">
+                    <Frame HeightRequest="150" BackgroundColor="DarkBlue" Padding="0" Margin="0">
+
+                    </Frame>
+                </StackLayout>
+                <StackLayout Padding="0" Margin="10,100,10,0" HorizontalOptions="FillAndExpand">
+                    <Frame  BackgroundColor="White" HeightRequest="500" HasShadow="True" Padding="0" Margin="0">
+
+                        <StackLayout>
+
+
+                            <StackLayout Margin="10">
+                                <Label Text="Yapılacaklar Listesi" TextColor="Black" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" FontSize="30"/>
+                            </StackLayout>
+
+                            <StackLayout>
+                                <ListView x:Name="lstPersons">
+                                    <ListView.ItemTemplate>
+                                        <DataTemplate>
+                                            <ViewCell>
+                                                <ViewCell.View>
+                                                    <StackLayout Spacing="-30">
+                                                        <Label Text="{Binding duty_text} "
+                           TextColor="Black" FontSize="20" Padding="10,20,0,0" />
+                                                        <CheckBox x:Name="" 
+                        IsChecked="{Binding duty_make}"  CheckedChanged="checkedchange" AutomationId="{Binding duty_id}"  Margin="0"  WidthRequest="30"
+                        HorizontalOptions="EndAndExpand"/>
+                                                    </StackLayout>
+                                                </ViewCell.View>
+                                            </ViewCell>
+                                        </DataTemplate>
+                                    </ListView.ItemTemplate>
+                                </ListView>
+                            </StackLayout>
+
+
+                        </StackLayout>
+
+                    </Frame>
+                </StackLayout>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

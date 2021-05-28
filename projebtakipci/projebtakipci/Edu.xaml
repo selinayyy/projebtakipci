@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:cardView="clr-namespace:CardView;assembly=CardView"
+             mc:Ignorable="d"
+             x:Class="projebtakipci.Edu"
+             >
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#e6e6e6">
+            <Grid>
+                <StackLayout Padding="0" Margin="0" HorizontalOptions="FillAndExpand">
+                    <Frame HeightRequest="150" BackgroundColor="DarkBlue" Padding="0" Margin="0">
+
+                    </Frame>
+                </StackLayout>
+                <StackLayout Padding="0" Margin="10,100,10,0" HorizontalOptions="FillAndExpand">
+                    <Frame  BackgroundColor="White" HeightRequest="500" HasShadow="True" Padding="0" Margin="0">
+
+                        <StackLayout>
+
+
+                            <StackLayout Margin="10">
+                                <Label Text="Eğitim" TextColor="Black" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" FontSize="30"/>
+                            </StackLayout>
+                            
+                            <ScrollView>
+                                <StackLayout Padding="10" Margin="5">
+                                    <Frame>
+                                        <WebView VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"  Source="https://www.youtube.com/watch?v=mU6qyCBT0Uc&amp;t=6s" WidthRequest="200" HeightRequest="400" IsVisible="true"/>
+
+                                    </Frame>
+
+                                    <Frame IsClippedToBounds="True"
+                HasShadow="True"
+                Padding="0"
+                BackgroundColor="White" >
+                                        
+
+                                        <StackLayout HorizontalOptions="FillAndExpand" Orientation="Vertical">
+                                            <Image  Source="https://www.tohumotizm.org.tr/wp-content/uploads/2019/01/tohum_web_3.jpg" Aspect="Fill" HeightRequest="200" />
+                                            <StackLayout HorizontalOptions="FillAndExpand" Orientation="Vertical" Padding="15">
+                                                <Label TextColor="#222" FontSize = "25" Text="Otizm Spektrum Bozukluğu Nedir?"/>
+                                                <Label Text="Otizm spektrum bozukluğu, doğuştan gelen ya da yaşamın ilk yıllarında ortaya çıkan karmaşık bir nöro-gelişimsel farklılıktır. Otizmin, beynin yapısını ya da işleyişini etkileyen bazı sinir sistemi sorunlarından kaynaklandığı düşünülmektedir. Bu metinde otizm spektrum bozukluğu için kullanım kolaylığı nedeniyle zaman zaman otizm terimi kullanılmıştır." FontSize = "16"/>
+                                                
+                                            </StackLayout>
+
+                                        </StackLayout>
+                                    </Frame>
+                                    <Frame IsClippedToBounds="True"
+                HasShadow="True"
+                Padding="0"
+                BackgroundColor="White" >
+                                        
+
+                                        <StackLayout HorizontalOptions="FillAndExpand" Orientation="Vertical">
+                                            <Image  Source="https://www.tohumotizm.org.tr/wp-content/uploads/2018/07/otizm-belirtiler_2.png" Aspect="Fill" HeightRequest="400" />
+                                            <StackLayout HorizontalOptions="FillAndExpand" Orientation="Vertical" Padding="15">
+                                                <Label TextColor="#222" FontSize = "25" Text="Otizm Belirtileri"/>
+                                                
+                                                
+                                            </StackLayout>
+
+                                        </StackLayout>
+                                    </Frame>
+                                    <Frame IsClippedToBounds="True"
+                HasShadow="True"
+                Padding="0"
+                BackgroundColor="White" >
+                                        
+
+                                        <StackLayout HorizontalOptions="FillAndExpand" Orientation="Vertical">
+                                            <Image  Source="https://www.tohumotizm.org.tr/wp-content/uploads/2018/06/Tohum_0019_shutterstock_601836443.png" Aspect="Fill" HeightRequest="200" />
+                                            <StackLayout HorizontalOptions="FillAndExpand" Orientation="Vertical" Padding="15">
+                                                <Label TextColor="#222" FontSize = "25" Text="Tedavi Yöntemleri"/>
+                                                <Label Text="Psikiyatrik Tedavi Yöntemleri
+- Glüten/Kazein Diyeti
+- Vitamin-Mineral Desteği
+- Ağır Metallerden Arındırma
+- Mantar Tedavisi
+- Hiperbarik Oksijen Tedavisi (HBOT)
+- Neuro-Feedback
+- Tedavi Protokolleri" FontSize = "16"/>
+                                                
+                                            </StackLayout>
+
+                                        </StackLayout>
+                                    </Frame>
+                                    <Frame IsClippedToBounds="True"
+                HasShadow="True"
+                Padding="0"
+                BackgroundColor="White" >
+
+
+                                        <StackLayout HorizontalOptions="FillAndExpand" Orientation="Vertical">
+                                            <WebView VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"  Source="https://www.youtube.com/watch?v=yAKI0hOAz_M" WidthRequest="200" HeightRequest="400" IsVisible="true"/>
+                                            <StackLayout HorizontalOptions="FillAndExpand" Orientation="Vertical" Padding="15">
+                                                <Label TextColor="#222" FontSize = "25" Text="Çocuğum Otizmli Şimdi Ne Yapacağım?"/>
+                                                <Label Text="Otizmli çocuğa sahip ebeveynlerin yol haritası olması açısından Tohum Otizm Vakfı ve Milli Eğitim Bakanlığı Özel Eğitim Rehberlik ve Danışma Hizmetleri Genel Müdürlüğü'nün katkıları ile hazırlanan Otizm Spektrum Bozukluğu Eğitim Kitimizden faydalanarak, otizmle ilgili her konuda bilgiye ulaşabilir ve otizm teşhisi konulduktan sonraki süreçle ilgili merak ettiğiniz sorularınızın yanıtını bulabilirsiniz." FontSize = "16"/>
+
+                                            </StackLayout>
+
+                                        </StackLayout>
+                                    </Frame>
+                                </StackLayout>
+
+                            </ScrollView>
+
+
+
+
+                        </StackLayout>
+
+                    </Frame>
+                </StackLayout>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
